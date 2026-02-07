@@ -44,7 +44,7 @@ No "Patrimônio acumulado" utiliza-se a fórmula VF (Valor Futuro) com a seguint
 - Na última as células foram nomeadas, pois melhora a legibilidade da planilha. Isso pode ser feito selecionando a célula ou intervalo, logo acima da coluna A no canto superior esquerdo tem uma caixa que deixa nomear. Este campo não aceita espaços e é bom evitar acentos. Atalhos: **CTRL + F3** para Gerenciador de nomes, aparece todos e pode renomear ou excluir; **F3** exibe o selecionador de nomes, muito útil quando está digitando uma fórmula.
 
 Em "Dividendos Mensais" é =C19*C18, ou seja, =patrimonio * taxa_mensal.
-[investimento-mensal]
+![Tabela Investimento Mensal](images/investimento-mensal.jpg)
 
 ### Cenários
 Podemos deixar alguns cenários pré-calculados como: *Quanto em 2 anos? 5? 10? 20? e 30 anos?*
@@ -58,10 +58,10 @@ ou com mais legibilidade
 No período apenas a coluna ficará travada para que a fórmula percorra as outras linhas.
 
 Adicionando a coluna D "Dividendo" = o valor calculado do cenário * rendimento_carteira
-[cenarios]
+![Tabela de Cenarios](images/cenarios.jpg)
 
 Foi inserida a tabela "Configurações" antes das outras para que esses valores possam ser explorados, a tabela contém: Sálario; Rendimento Corretora; Sugestão de Investimento (30%). Essas variáveis também foram nomeadas, respectivamente, de forma sugestiva: salario, rendimento_carteira, sugestao_investimento.
-[configuracoes]
+![Tabela de Configuracoes](images/configuracoes.jpg)
 
 ### Uniformidade visual
 A ideia é fazer uma planilha colunar, para isso:
@@ -103,14 +103,14 @@ Agora, do lado esquerdo da coluna Perfil crie a coluna *CHAVE*, nela utilizaremo
 Arraste até o final.
 
 Do lado direito da coluna Tipo de FII, crie a coluna *%*, deixe os percentuais de maneira sugestiva. 
-[tabela-apoio]
+![Planilha2](images/tabela-apoio.jpg)
 
 Voltando na *Planilha1*, em *Perc. Sugerido* utilizaremos a fórmula PROCV para puxar os percentuais de acordo o perfil do investidor
 > =PROCV($C$33&"-"&$B37;Planilha2!$A:$D;4;FALSO)
 
 Na linha abaixo de valores para somar podemos usar o atalho *ALT +*.
 Formate o cabeçalho e o total.
-[percentual-sugerido]
+![Perc. Sugerido](images/percentual-sugerido.jpg)
 
 Podemos explorar mais ainda, como também inserir um gráfico, para isso selecione as colunas tipo de fii e perc. sugerido e:
 > Menu Inserir -> Gráficos Recomendados -> Gráfico de Pizza
@@ -118,7 +118,7 @@ Podemos explorar mais ainda, como também inserir um gráfico, para isso selecio
 Sobre o gráfico, com botão direito do mouse, formatar rótulos de dados para que apareça os percentuais.
 Delete o título.
 Em Design escolha um modelo.
-[grafico]
+![Grafico](images/grafico.jpg)
 
 Pronto! Agora temos um simulador de investimentos em excel.
 
