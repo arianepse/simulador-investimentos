@@ -15,7 +15,7 @@ Com o tema de investimentos e foco em Fundos Imobiliários (FII) a planilha resp
 Com o auxilio de Inteligência Artificial (IA) foi solicitado o seguinte prompt:
 >Faça a imagem de um banner para ser usado em uma planilha simuladora de investimentos, que esteja escrito "Ari Invest". Use cores em tons de verde e azul, também coloque detalhes de fundo como gráficos alavancando, calculadoras, planilhas. Deixe a imagem minimalista e sofisticada, e que passe seriedade e confiança para os clientes.
 
-![Banner Ari Invest](images/banner.jpg)
+![Banner Ari Invest](images/banner.png)
 
 ## Pasta de Trabalho
 Abra um arquivo Excel em branco.
